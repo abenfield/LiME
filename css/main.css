@@ -1,0 +1,104 @@
+
+.navbar-custom { 
+  background: linear-gradient(198deg, #23afcb, #c1b8e0, #2eb4d8);
+  background-size: 600% 600%;
+  
+  -webkit-animation: animate1 30s ease infinite;
+  -moz-animation: animate2 30s ease infinite;
+  animation: animate3 30s ease infinite;
+}
+
+
+.navbar{
+	height:20em;
+}
+.navbar li{
+	text-decoration:none;
+	   list-style-type: none;
+}
+
+.logo-index {
+	width:450px;	
+}
+
+.login-box {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+	margin-bottom:50px;
+}
+
+
+
+.accountText {
+margin-bottom:80px;
+margin-top:80px;	
+}
+
+.icon-image {
+	width:200px;
+
+
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 200px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+form {border: 3px solid #f1f1f1;}
+
+
+.icon-label {
+		text-align:center;
+		font-size:30px;
+		text-decoration:none;
+		color:black;
+}
+
+.container-login {
+	text-align:center;
+	width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+
+	
+}
+
+button {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #64cf56 0%, #239e52 51%, #2e7910 100%);
+}
+
+button:hover{ background-position: right center;}
+
+form {
+
+padding:5%;
+
+}

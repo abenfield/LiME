@@ -1,0 +1,109 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+.footer-logo {
+	width:40px;
+}
+footer{
+	color:limegreen;
+	-webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: rgb(14, 34, 22);
+	font-size:30px;
+	background: linear-gradient(198deg, #23afcb, #c1b8e0, #2eb4d8);
+	background-size: 600% 600%;
+	
+	-webkit-animation: animate1 30s ease infinite;
+	-moz-animation: animate2 30s ease infinite;
+	animation: animate3 30s ease infinite;
+
+	height:3em;
+
+}
+#footer-space {
+	margin-top:20em;
+}
+.navbar a{
+	font-size :20px;
+	margin-left:50px;
+	color:black;
+	text-decoration: none;
+}
+
+.logout{
+	width:22px;
+	height:22px;
+	background-image:url("../content/logout.png");
+  display: flex;
+  background-size: contain;
+  background-repeat:no-repeat;
+
+}
+
+.nav-item {
+	  align-items: center;
+	  display:flex;
+
+}
+
+.tinyText {
+	font-size:20px;
+	margin-bottom:100px;
+	
+	}
+	.tinyText a{
+	  color:black;
+	  margin-left:50px;
+	  margin-right:50px;
+	  }
+
+	  #scrollbar  {
+		overflow-y:scroll;
+
+	  }
+	  .cover {
+		  width:250px;
+	  }
+
+	  .copies {
+		  margin-top:50px;
+		  margin-bottom:50px;
+		width: 60% ;
+		height:20em;
+		background-color:#D3D3D3;
+	  }
+
+	  .copies  h2 {
+		font-size:2em;
+	  }
+
+	  .bookDetails {
+		  margin:50px;
+	  }
+	
+
+	  .label-danger {
+		color:red;
+	}
+
+	@-webkit-keyframes animate1 {
+		0%{background-position:68% 0%}
+		50%{background-position:33% 100%}
+		100%{background-position:68% 0%}
+	}
+	@-moz-keyframes animate2 {
+		0%{background-position:68% 0%}
+		50%{background-position:33% 100%}
+		100%{background-position:68% 0%}
+	}
+	@keyframes animate3 {
+		0%{background-position:68% 0%}
+		50%{background-position:33% 100%}
+		100%{background-position:68% 0%}
+	}
+	#loader {
+		width:25%;
+		
+		}

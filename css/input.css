@@ -1,0 +1,16 @@
+.inputText{
+margin-top:25px;
+}
+
+.formContainer{
+
+        width: 50%;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-right: auto;
+            margin-left: auto;
+}
+
+.btn {
+    margin-right:25px;
+}

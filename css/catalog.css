@@ -1,0 +1,70 @@
+
+.navbar-custom {
+	background: linear-gradient(198deg, #23afcb, #c1b8e0, #2eb4d8);
+	background-size: 600% 600%;
+	
+	-webkit-animation: animate1 30s ease infinite;
+	-moz-animation: animate2 30s ease infinite;
+	animation: animate3 30s ease infinite;
+}
+
+@media (max-width: 990px) {
+
+	#navbarSupportedContent{
+		margin-top:35px;
+		width:100%;
+		background: linear-gradient(198deg, #23afcb, #c1b8e0, #2eb4d8);
+		background-size: 600% 600%;
+		
+		-webkit-animation: animate1 30s ease infinite;
+		-moz-animation: animate2 30s ease infinite;
+		animation: animate3 30s ease infinite;
+		z-index:1000000;
+	}
+
+	
+  }
+
+
+
+
+
+.navbar {
+	height: 7em;
+	
+}
+
+.searchBar{
+width:400px;
+}
+.navbar li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.logo-index {
+	width: 150px;
+}
+
+.topbar {
+	height:40px;
+	width:100%;
+}
+
+.topbar-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right:100px;
+}
+
+.butt {
+	float:right;
+}
+
+.icon {
+width:20px;
+height:20px;
+margin-top:-5px;
+margin-left:20px;
+}
+
